@@ -94,7 +94,6 @@ export class TWRPortfolioCalculator extends PortfolioCalculator {
     }
 
     return {
-      createdAt: new Date(),
       currentValueInBaseCurrency,
       hasErrors,
       positions,
@@ -103,6 +102,7 @@ export class TWRPortfolioCalculator extends PortfolioCalculator {
       totalInvestment,
       totalInvestmentWithCurrencyEffect,
       errors: [],
+      createdAt: new Date(),
       historicalData: [],
       totalLiabilitiesWithCurrencyEffect: new Big(0),
       totalValuablesWithCurrencyEffect: new Big(0)
