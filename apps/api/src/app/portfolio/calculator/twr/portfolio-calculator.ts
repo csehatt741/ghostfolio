@@ -101,8 +101,8 @@ export class TWRPortfolioCalculator extends PortfolioCalculator {
       totalInterestWithCurrencyEffect,
       totalInvestment,
       totalInvestmentWithCurrencyEffect,
-      errors: [],
       createdAt: new Date(),
+      errors: [],
       historicalData: [],
       totalLiabilitiesWithCurrencyEffect: new Big(0),
       totalValuablesWithCurrencyEffect: new Big(0)
