@@ -10,6 +10,7 @@ export const activityDummyData = {
   id: undefined,
   isDraft: false,
   symbolProfileId: undefined,
+  unitPriceInBaseCurrency: undefined,
   updatedAt: new Date(),
   userId: undefined,
   value: undefined,
